@@ -1,0 +1,33 @@
+baseURL = "https://blog.keircn.com"
+languageCode = "en-gb"
+title = "Rezensionen zu Lichttaste"
+theme = "PaperMod"
+
+[params]
+ShowReadingTime = true
+ShowToc = true
+TocOpen = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+comments = true
+
+[params.assets]
+customCSS = ["css/extended/custom.css"]
+
+[[menu.main]]
+name = "Reviews"
+url = "/reviews/"
+weight = 1
+
+[params.giscus]
+repo = "keircn/reviews"
+repoId = "R_kgDOSUQt0w"
+category = "Announcements"
+categoryId = "DIC_kwDOSUQt084C8VbS"
+mapping = "pathname"
+reactionsEnabled = "1"
+emitMetadata = "1"
+inputPosition = "top"
+theme = "preferred_color_scheme"
+lang = "en"
+loading = "lazy"

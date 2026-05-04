@@ -1,0 +1,14 @@
+.post-content {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  max-width: 75ch;
+}
+
+.post-content h2, 
+.post-content h3 {
+  margin-top: 2em;
+}
+
+.post-content p {
+  margin-bottom: 1.2em;
+}
